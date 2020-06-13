@@ -1,0 +1,28 @@
+h2 {color: red;font-size: 36pt;}
+p {color:blue; font-family: monospace;}
+
+#titulo-1 {font-style: italic;}
+#titulo-2 {font-weight: 900;}
+
+.base {border-width: 2px;
+border-style: dashed;
+border-color: orangered;
+padding: 1cm 2cm 3cm 4cm;
+margin: 4cm 3cm 2cm 1cm;
+margin-top: 2cm;
+margin-right: 3cm;
+padding-bottom: 3cm;
+padding-left: 4cm;
+}
+
+.ultimo{color:aqua;}
+
+p.ultimo{color:greenyellow}
+.par.ultimo {font-weight: bold;}
+
+h2,h3 {color:cornflowerblue;font-size: 36pt;}
+
+.base > h2{text-align: right;}
+.base > p > span{text-decoration: underline;}
+
+.base .ejemplo {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
